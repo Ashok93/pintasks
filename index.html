@@ -1,0 +1,21 @@
+<!Doctype HTML>
+<html>
+   <title>Tasks</title>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link rel='stylesheet' href='font/typicons.min.css'>
+   </head>
+   <body>
+      <h1 class='typcn typcn-pin'>PIN-TASKS</h1>
+      <!-- All new cards will be apended via html as the users add tasks -->
+      <div class="cards-container">
+         <div class="card-new">
+            <textarea class="new-card-txt-area" maxlength="150" placeholder="Type and pin your tasks.. Uses localStorage. Your tasks will be alive even on page refresh. No server side. Your pins, yours! (max 150 chars)"></textarea>
+            <button id="add-card-btn" class='typcn typcn-plus'></button>
+         </div>
+      </div>
+      <script src="jquery-3.1.0.min.js"></script>
+      <script src="index.js"></script>
+   </body>
+</html>
