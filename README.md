@@ -5,4 +5,5 @@ Just type and press add button to add your daily task. Simple! Currently uses lo
 
 TODO: Use of service worker for providing offline experience and making it a PWA(progressive web app) so it can be access and used seamlessly from variety of devices.
 
-![Alt text](/blob/master/pin-tasks.jpg?raw=true "Optional Title")
+![Alt text] (/pin-tasks.jpg "Screenshot - Pin-tasks")
+
